@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0d1f17;
+    color: #d8f3e3;
+}
+
+header {
+    background: #10291d;
+    border-bottom: 2px solid #2ecc71;
+    padding: 32px 24px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    color: #4cff9a;
+    text-shadow: 0 0 8px #2ecc71, 0 0 20px #2ecc71;
+}
+
+header p {
+    margin: 0;
+    color: #9fd9b6;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+h2 {
+    color: #4cff9a;
+    text-shadow: 0 0 6px #2ecc71;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background: #143326;
+    border: 1px solid #1f5a3d;
+    border-radius: 10px;
+    padding: 16px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+    border-color: #2ecc71;
+    box-shadow: 0 0 12px rgba(46, 204, 113, 0.5);
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    color: #eafff2;
+    text-shadow: 0 0 4px rgba(76, 255, 154, 0.6);
+}
+
+.card p {
+    margin: 4px 0;
+    color: #a9cdb8;
+}
+
+.tag {
+    display: inline-block;
+    background: #1f5a3d;
+    color: #4cff9a;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+    color: #4cff9a;
+    text-shadow: 0 0 6px #2ecc71;
+}
+
+.message {
+    color: #7fa892;
+}
