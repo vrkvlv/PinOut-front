@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Додати категорію - PinOut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔌 PinOut</h1>
+        <nav id="nav"></nav>
+    </header>
+
+    <main>
+        <h2>Додати категорію</h2>
+        <p>Ця сторінка доступна лише після входу. Додавати категорії може тільки адміністратор.</p>
+        <form id="category-form" class="form">
+            <label>Назва
+                <input name="name" required>
+            </label>
+            <label>Опис
+                <textarea name="description"></textarea>
+            </label>
+            <button type="submit">Додати</button>
+            <p id="result"></p>
+        </form>
+    </main>
+
+    <script src="auth.js"></script>
+    <script src="add.js"></script>
+</body>
+</html>
