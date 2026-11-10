@@ -1,5 +1,4 @@
-// Адреса бекенду
-const API_URL = "http://127.0.0.1:8000/api";
+// API_URL задається в auth.js
 
 // Створює HTML-елемент із текстом
 function createElement(tag, text, className) {

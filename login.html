@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вхід - PinOut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔌 PinOut</h1>
+        <nav id="nav"></nav>
+    </header>
+
+    <main>
+        <h2>Вхід</h2>
+        <form id="login-form" class="form">
+            <label>Ім'я користувача
+                <input name="username" required>
+            </label>
+            <label>Пароль
+                <input name="password" type="password" required>
+            </label>
+            <button type="submit">Увійти</button>
+            <p id="error" class="error"></p>
+        </form>
+        <p>Немає акаунта? <a href="register.html">Зареєструватися</a></p>
+    </main>
+
+    <script src="auth.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
